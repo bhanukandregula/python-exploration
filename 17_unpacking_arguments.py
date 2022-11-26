@@ -37,6 +37,9 @@ nums = {
 sum_value_dict_01 = add(nums["x"], nums["y"])
 print("Sum value from dictionary 01 is: ", sum_value_dict_01)
 
+def add02(x, y):
+    return x + y
+
 nums02 = {
     "x" : 15,
     "y" : 16
@@ -45,8 +48,8 @@ nums02 = {
 # we can also send the params values with **
 # This throws an error, - yet to solve
 
-# sum_value_dict_02 = add(**nums02)
-# print("Sum value from dictionary 02 is: ", sum_value_dict_02)
+sum_value_dict_02 = add02(**nums02)
+print("Sum value from dictionary 02 is: ", sum_value_dict_02)
 
 print("******* - Using the *args param and operator")
 def multiply(*args):
