@@ -13,7 +13,7 @@ class Book:
 
     @classmethod
     def hardcover(cls, name, page_weight):
-        # this returns a new object inside a class
+        # this returns a new object inside a class0
         return Book(name, Book.TYPES[0], page_weight * 100)
 
     @classmethod
